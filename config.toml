@@ -1,5 +1,5 @@
 baseurl = "http://amritargupta.github.io/blog/"
-canonifyurls: true
+canonifyurls = true
 languageCode = "en-us"
 
 [permalinks]
