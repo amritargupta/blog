@@ -4,3 +4,9 @@ build:
     - arjen/hugo-build:
         version: 0.13
 
+deploy:
+  steps:
+    - lukevivier/gh-pages:
+        token: $GIT_TOKEN
+        domain: amritargupta.github.io
+        basedir: public
