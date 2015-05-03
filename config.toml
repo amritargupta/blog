@@ -1,0 +1,10 @@
+baseurl = "http://amritargupta.github.io/"
+languageCode = "en-us"
+
+[permalinks]
+post = "/:year/:month/:day/:title"
+
+[params]
+DateForm = "Jan 2 2006"
+Title = "Some Thoughts ..."
+disqusShortname = "amritargupta"
